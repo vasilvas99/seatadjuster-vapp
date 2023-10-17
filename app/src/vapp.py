@@ -35,7 +35,7 @@ logger = logging.getLogger(__name__)
 
 CURRENT_POSITION_TOPIC = "seatadjuster/currentPosition"
 SET_POSITION_REQUEST_TOPIC = "seatadjuster/setPosition/request"
-SET_POSITION_RESPONSE_TOPIC = "seatadjuster/setPosition/request"
+SET_POSITION_RESPONSE_TOPIC = "seatadjuster/setPosition/response"
 
 
 class SeatAdjusterApp(VehicleApp):
